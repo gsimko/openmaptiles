@@ -198,6 +198,21 @@ layer:
     mtb_scale:
       description: |
           Original value of the [`mtb:scale`](http://wiki.openstreetmap.org/wiki/Key:mtb:scale) tag (highways only).
+    mtb_scale_imba:
+      description: |
+          Original value of the [`mtb:scale:imba`](http://wiki.openstreetmap.org/wiki/Key:mtb:scale:imba) tag (highways only).
+    mtb_scale_uphill:
+      description: |
+          Original value of the [`mtb:scale:uphill`](http://wiki.openstreetmap.org/wiki/Key:mtb:scale:uphill) tag (highways only).
+    ski:
+      description: |
+          Original value of the [`ski`](http://wiki.openstreetmap.org/wiki/Key:ski) tag (highways only).
+    piste_type:
+      description: |
+          Original value of the [`piste:type`](http://wiki.openstreetmap.org/wiki/Key:piste:type) tag.
+    piste_difficulty:
+      description: |
+          Original value of the [`piste:difficulty`](http://wiki.openstreetmap.org/wiki/Key:piste:difficulty) tag.
     surface:
       description: |
           Values of [`surface`](https://wiki.openstreetmap.org/wiki/Key:surface) tag devided into 2 groups `paved` (paved, asphalt, cobblestone, concrete, concrete:lanes, concrete:plates, metal, paving_stones, sett, unhewn_cobblestone, wood) and `unpaved` (unpaved, compacted, dirt, earth, fine_gravel, grass, grass_paver, gravel, gravel_turf, ground, ice, mud, pebblestone, salt, sand, snow, woodchips).

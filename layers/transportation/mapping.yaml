@@ -193,6 +193,26 @@ mtb_scale_field: &mtb_scale
   key: mtb:scale
   name: mtb_scale
   type: string
+mtb_scale_imba_field: &mtb_scale_imba
+  key: mtb:scale:imba
+  name: mtb_scale_imba
+  type: string
+mtb_scale_uphill_field: &mtb_scale_uphill
+  key: mtb:scale:uphill
+  name: mtb_scale_uphill
+  type: string
+ski_field: &ski
+  key: ski
+  name: ski
+  type: string
+piste_type_field: &piste_type
+  key: piste:type
+  name: piste_type
+  type: string
+piste_difficulty_field: &piste_difficulty
+  key: piste:difficulty
+  name: piste_difficulty
+  type: string
 sac_scale_field: &sac_scale
   key: sac_scale
   name: sac_scale
@@ -292,6 +312,19 @@ tables:
       service:
       - driveway
       - parking_aisle
+      piste_type:
+      - downhill
+      - nordic
+      - skitour
+      - sled
+      - hike
+      - sleigh
+      - iceskate
+      - ice_skate
+      - snow_park
+      - playground
+      - ski_jump
+      - connection
 
 # etldoc: imposm3 -> osm_railway_linestring
   railway_linestring:
