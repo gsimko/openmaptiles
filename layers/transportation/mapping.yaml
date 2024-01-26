@@ -489,6 +489,19 @@ tables:
       man_made:
       - bridge
       - pier
+      piste_type:
+      - downhill
+      - nordic
+      - skitour
+      - sled
+      - hike
+      - sleigh
+      - iceskate
+      - ice_skate
+      - snow_park
+      - playground
+      - ski_jump
+      - connection
 
   # etldoc: imposm3 -> highway_point
   highway_point:
