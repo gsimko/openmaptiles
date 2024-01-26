@@ -273,6 +273,11 @@ tables:
     - *foot
     - *horse
     - *mtb_scale
+    - *mtb_scale_imba
+    - *mtb_scale_uphill
+    - *ski
+    - *piste_type
+    - *piste_difficulty
     - *sac_scale
     - *surface
     - *expressway
@@ -459,6 +464,16 @@ tables:
       type: bool
     - *public_transport
     - *man_made
+    - *bicycle
+    - *foot
+    - *horse
+    - *mtb_scale
+    - *mtb_scale_imba
+    - *mtb_scale_uphill
+    - *ski
+    - *piste_type
+    - *piste_difficulty
+    - *sac_scale
     - *service
     mapping:
       highway:
