@@ -317,7 +317,15 @@ tables:
       service:
       - driveway
       - parking_aisle
-      piste_type:
+      piste:difficulty:
+      - novice
+      - easy
+      - intermediate
+      - advanced
+      - expert
+      - freeride
+      - extreme
+      piste:type:
       - downhill
       - nordic
       - skitour
@@ -489,7 +497,15 @@ tables:
       man_made:
       - bridge
       - pier
-      piste_type:
+      piste:difficulty:
+      - novice
+      - easy
+      - intermediate
+      - advanced
+      - expert
+      - freeride
+      - extreme
+      piste:type:
       - downhill
       - nordic
       - skitour
