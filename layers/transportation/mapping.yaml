@@ -464,6 +464,7 @@ tables:
       type: string
     - name: z_order
       type: wayzorder
+    - *name
     - *layer
     - *level
     - *indoor
