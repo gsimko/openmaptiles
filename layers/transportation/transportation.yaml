@@ -129,6 +129,8 @@ layer:
           [`ca-transcanada`](https://en.wikipedia.org/wiki/Trans-Canada_Highway),
           [`gb-*`](http://wiki.openstreetmap.org/wiki/United_Kingdom_Tagging_Guidelines#UK_roads),
           or [`ie-*`](http://wiki.openstreetmap.org/wiki/Ireland/Roads).
+    name: The OSM [`name`](http://wiki.openstreetmap.org/wiki/Highways#Names_and_references) value of the highway.
+    ref: The OSM [`ref`](http://wiki.openstreetmap.org/wiki/Key:ref) tag of the motorway or its network.
     brunnel:
       description: |
           Mark whether way is a tunnel or bridge.
