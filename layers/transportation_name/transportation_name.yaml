@@ -101,6 +101,21 @@ layer:
           value of [`indoor`](http://wiki.openstreetmap.org/wiki/Key:indoor) tag.
       values:
       - 1
+    mtb_scale:
+      description: |
+          Original value of the [`mtb:scale`](http://wiki.openstreetmap.org/wiki/Key:mtb:scale) tag (highways only).
+    mtb_scale_imba:
+      description: |
+          Original value of the [`mtb:scale:imba`](http://wiki.openstreetmap.org/wiki/Key:mtb:scale:imba) tag (highways only).
+    mtb_scale_uphill:
+      description: |
+          Original value of the [`mtb:scale:uphill`](http://wiki.openstreetmap.org/wiki/Key:mtb:scale:uphill) tag (highways only).
+    piste_type:
+      description: |
+          Original value of the [`piste:type`](http://wiki.openstreetmap.org/wiki/Key:piste:type) tag.
+    piste_difficulty:
+      description: |
+          Original value of the [`piste:difficulty`](http://wiki.openstreetmap.org/wiki/Key:piste:difficulty) tag.
     route_1: 1st route concurrency.
     route_2: 2nd route concurrency.
     route_3: 3rd route concurrency.
